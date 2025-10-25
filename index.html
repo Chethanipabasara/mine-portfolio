@@ -12,6 +12,15 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="./style.css" />
+  <!-- Fancybox CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
+
+<!-- Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 </head>
 
 <body>
@@ -198,107 +207,7 @@
     </div>
   </section>
 
-  <section class="skills">
-    <div class="container">
-      <small>Pro Skills</small>
-      <h2>Let’s Explore My Skills</h2>
 
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <img src="./img/project3.png" alt="">
-            <p> Figma</p>
-            <div class="precentage">
-              100%
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./img/project1.png" alt="">
-            <p>Figma</p>
-            <div class="precentage">
-              100%
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./img/project4.png" alt="">
-            <p>Figma</p>
-            <div class="precentage">
-              100%
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./img/progect6.png" alt="">
-            <p>Frontend Develope</p>
-            <div class="precentage">
-              100%
-            </div>
-          </div>
-        </div>
-          <div class="col">
-          <div class="card">
-            <img src="./img/project7.png" alt="">
-            <p>Frontend Develope</p>
-            <div class="precentage">
-              100%
-            </div>
-          </div>
-        </div>
-          <div class="col">
-          <div class="card">
-            <img src="./img/project8.png" alt="">
-            <p>Frontend Develope</p>
-            <div class="precentage">
-              100%
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <img src="./img/skill5.png" alt="">
-            <p> Angular</p>
-            <div class="precentage">
-              95%
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./img/skill6.png" alt="">
-            <p> Webflow</p>
-            <div class="precentage">
-              96%
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./img/skill7.png" alt="">
-            <p> Python</p>
-            <div class="precentage">
-              52%
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./img/skill8.png" alt="">
-            <p>Sketch</p>
-            <div class="precentage">
-              84%
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section class="port">
     <div class="container">
@@ -316,50 +225,55 @@
   <script>
     // Sample projects data
     const projectsData = [
-      {
-        name: "travel",
-        category: "Frontend Develope",
-        image: "./img/progect6.png",
-        link: "https://shorturl.at/UzfsU"
-      },
-      {
-        name: "travel",
-        category: "Frontend Develope",
-        image: "./img/project8.png",
-        link: "https://shorturl.at/l39h9"
-      },
-       {
-        name: "gym website",
-        category: "Frontend Develope",
-        image: "./img/project7.png",
-        link: "https://shorturl.at/H1VLd"
-      },
-      {
-        
-        name: "Onblogexplore",
-        category: "Figma UI Design",
-        image: "./img/project3.png",
-        link: "https://shorturl.at/u6wX6"
-      },
-      {
-        name: "Onblogexplore",
-        category: "Figma UI Design",
-        image: "./img/project1.png",
-        link: "https://shorturl.at/vtVnR"
-      },
-      {
-        name: "Brand Oil Toner!",
-        category: "Figma UI Design",
-        image: "./img/project4.png",
-        link: "https://shorturl.at/tiNyi"
-      },
+     
        {
         name: "Furniture!",
         category: "Figma UI Design",
-        image: "img/furniture.png",
+        image: "img/ui-01.png",
         link: "https://www.figma.com/design/qprObejea1uTz7H5yBMV6h/furniture?node-id=0-1&t=1kyK2Feu820eDlA6-1"
       },
-
+  {
+        name: "Brand Oil Toner!",
+        category: "Figma UI Design",
+        image: "img/ui-02.png",
+        link: "https://www.figma.com/design/CdWzkZT9KWADadFyjY8TKn/Right-Holding?node-id=1-2&t=Tg40CvlxMGPX93lc-1"
+      },
+       {
+        name: "Chatty",
+        category: "Figma UI Design",
+        image: "img/ui-03.png",
+        link: "https://www.figma.com/design/W7EdiNO0MkGzE63TqevR2A/Chatty?node-id=0-1&t=Tg40CvlxMGPX93lc-1"
+      },
+         {
+        name: "jStack Sample layout",
+        category: "Figma UI Design",
+        image: "img/ui-04.png",
+        link: "https://www.figma.com/design/m3HA2FV1goSJlbI0rkS7zc/jStack-Sample-layout?node-id=0-1&t=W6dBjaoX1UB3okFS-1"
+      },
+          {
+        name: "Ceylon Spices New",
+        category: "Figma UI Design",
+        image: "img/ui-05.png",
+        link: "https://www.figma.com/design/8DEVXaCpnSqRKBi2b1vEBz/Ceylon-Spices-New?t=W6dBjaoX1UB3okFS-1"
+      },
+            {
+        name: "We App",
+        category: "Figma UI Design",
+        image: "img/ui-06.png",
+        link: "https://www.figma.com/design/18KWReB0fbTStZzrZrFbso/We-app?node-id=0-1&t=ffX6mlHKEiYFpml0-1"
+      },
+             {
+        name: "Take Me",
+        category: "Figma UI Design",
+        image: "img/ui-07.png",
+        link: "https://www.figma.com/design/5DxS6lVKZ46a9Z5E2KQlXB/Take-Me-orginal-2021?t=ffX6mlHKEiYFpml0-1"
+      },
+              {
+        name: "E-Pro Web ",
+        category: "Figma UI Design",
+        image: "img/ui-08.png",
+        link: "https://www.figma.com/design/bLN4YSGlp6EwFD1Q925xQH/E-Pro-Web-Pages--1-?node-id=0-1&t=ffX6mlHKEiYFpml0-1"
+      },
     ];
 
     // Get unique categories
@@ -397,14 +311,17 @@
       filtered.forEach(project => {
         const card = document.createElement("div");
         card.className = "card";
-        card.innerHTML = `
-            <img src="${project.image}" alt="${project.name}">
-            <div class="card-content">
-                <h3>${project.name}</h3>
-                <p>${project.category}</p>
-                <a href="${project.link}" target="_blank">View Project</a>
-            </div>
-        `;
+       card.innerHTML = `
+  <a data-fancybox="gallery" href="${project.image}">
+    <img src="${project.image}" alt="${project.name}">
+  </a>
+  <div class="card-content">
+    <h3>${project.name}</h3>
+    <p>${project.category}</p>
+    <a href="${project.link}" target="_blank">View Project</a>
+  </div>
+`;
+
         projectsContainer.appendChild(card);
       });
     }

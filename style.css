@@ -313,7 +313,7 @@ margin-top: 20px;
     }
      .port  .card img {
         width: 100%;
-        height: 160px;
+        height: auto;
         object-fit: cover;
     }
     .port   .card-content {
